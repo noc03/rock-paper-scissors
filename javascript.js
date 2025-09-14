@@ -13,3 +13,9 @@ let getComputerChoise = () => {
 }
 
 console.log(getComputerChoise());
+
+let getHumanChoise = () => {
+    return prompt("Rock, Paper, Scissors");
+}
+
+console.log(getHumanChoise());
